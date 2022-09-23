@@ -33,3 +33,10 @@ WHERE t.[text] LIKE N'%-----yourtexthere-----%'
 ORDER BY s.last_execution_time DESC
 ```
 Tested on: SQL Server
+
+
+## Pivot table
+
+[<img src="https://media-exp1.licdn.com/dms/image/C4E22AQFMthtTMSqclw/feedshare-shrink_800/0/1663873171762?e=1666828800&v=beta&t=AfA4CtvtSNXre83tcxFaFYRhEsLqLIVWDDnhlku5vLs" >](https://www.linkedin.com/posts/remiojojr_sql-sqlschool-datascience-activity-6978789902641438720-0uQM?utm_source=share&utm_medium=member_desktop)
+
+
