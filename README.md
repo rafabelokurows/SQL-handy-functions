@@ -39,4 +39,10 @@ Tested on: SQL Server
 
 [<img src="https://media-exp1.licdn.com/dms/image/C4E22AQFMthtTMSqclw/feedshare-shrink_800/0/1663873171762?e=1666828800&v=beta&t=AfA4CtvtSNXre83tcxFaFYRhEsLqLIVWDDnhlku5vLs" >](https://www.linkedin.com/posts/remiojojr_sql-sqlschool-datascience-activity-6978789902641438720-0uQM?utm_source=share&utm_medium=member_desktop)
 
+## Count distinct over two columns 
+Obs: even if they are numeric
+```
+select count(distinct({fn CONCAT( cast(numeric_column1 as varchar),cast(numeric_column2 as varchar))})),codvf from table where blablah group by something
+```
+
 
